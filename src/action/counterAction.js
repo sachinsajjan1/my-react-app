@@ -1,5 +1,4 @@
 function incerementSuccess(result) {
-    debugger;
     return { type: "INCREMENT_SUCCESS", result }
 }
 
@@ -8,7 +7,6 @@ function decerementSuccess(result) {
 }
 
 export function increment(counter) {
-    debugger;
     return function (dispatch) {
         counter = counter + 1;
         dispatch(incerementSuccess(counter));

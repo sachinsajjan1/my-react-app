@@ -49,7 +49,6 @@ class Home extends Component {
 }
 
 function mapStateToprops(state, ownProps) {
-  debugger
   return {
     counter: state.counter
   }
